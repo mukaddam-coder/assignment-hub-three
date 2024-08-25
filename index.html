@@ -190,54 +190,52 @@
       </section>
       <!-- Portfolio Section -->
        <section>
-        <div class="min-h-screen bg-gray-100 py-12 flex justify-center items-center">
-          <div class="bg-white p-8 rounded-xl shadow-lg max-w-6xl w-full">
+        <div class="min-h-screen py-12 flex justify-center items-center bg-white p-8 rounded-xl shadow-lg">
+          <div class="max-w-6xl w-full">
             <div class="text-center mb-12">
               <button class="bg-lime-200 text-black font-bold rounded-full mb-4 px-2 py-1 mx-auto"><i class="fa-solid fa-arrow-right   text-black p-1 rounded-full"></i> Explore our latest works</button>
-              <h2 class="text-4xl font-bold mt-4">Our Latest Portfolio</h2>
+              <h2 class="text-4xl font-bold m-4">Our Latest Portfolio</h2>
               <p class="text-gray-500">Our Latest Portfolio showcases a blend of innovative design and craftsmanship, bringing modern elegance and timeless appeal to every project</p>
             </div>
             <!-- Portfolio  -->
-             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <!-- First Card -->
-               <div class="bg-white border border-gray-200 rounded-lg shadow-sm p-4">
-                <img class="w-96 h-48 object-cover rounded-md mb-4" src="images/img1.png" alt="Image One">
-                  <h3 class="text-xl font-bold mb-2">Commercial</h3>
-                 <p class="text-gray-600 mb-4">Our commercial projects highlight a perfect balance of functionality and aesthetics, designed to elevate business environments with modern, sophisticated touches.</p>
-                 <button class="text-black font-bold py-2 px-4 rounded-full inline-flex items-center">View Details <i class="fa-solid fa-arrow-right bg-lime-300 rounded-full p-2 -rotate-45"></i></button>
-                 </div>
-
-                 <!-- Second Card -->
-                 <div class="bg-white border border-gray-200 rounded-lg shadow-sm p-4">
-                  <img class="w-96 h-48 object-cover rounded-md mb-4" src="images/img2.png" alt="Image One">
-                    <h3 class="text-xl font-bold mb-2">Commercial</h3>
-                   <p class="text-gray-600 mb-4">Our commercial projects highlight a perfect balance of functionality and aesthetics, designed to elevate business environments with modern, sophisticated touches.</p>
-                   <button class="text-black font-bold py-2 px-4 rounded-full inline-flex items-center">View Details <i class="fa-solid fa-arrow-right bg-lime-300 rounded-full p-2 -rotate-45"></i></button>
-                   </div>
-
-                   <!-- Third Card -->
-                   <div class="bg-white border border-gray-200 rounded-lg shadow-sm p-4">
-                    <img class="w-96 h-48 object-cover rounded-md mb-4" src="images/img3.png" alt="Image One">
-                      <h3 class="text-xl font-bold mb-2">Commercial</h3>
-                     <p class="text-gray-600 mb-4">Our commercial projects highlight a perfect balance of functionality and aesthetics, designed to elevate business environments with modern, sophisticated touches.</p>
-                     <button class="text-black font-bold py-2 px-4 rounded-full inline-flex items-center">View Details <i class="fa-solid fa-arrow-right bg-lime-300 rounded-full p-2 -rotate-45"></i></button>
-                     </div>
-                     <!-- Fourth Card -->
-                     <div class="bg-white border border-gray-200 rounded-lg shadow-sm p-4">
-                      <img class="w-96 h-48 object-cover rounded-md mb-4" src="images/img4.png" alt="Image One">
-                        <h3 class="text-xl font-bold mb-2">Commercial</h3>
-                       <p class="text-gray-600 mb-4">Our commercial projects highlight a perfect balance of functionality and aesthetics, designed to elevate business environments with modern, sophisticated touches.</p>
-                       <button class="text-black font-bold py-2 px-4 rounded-full inline-flex items-center">View Details <i class="fa-solid fa-arrow-right bg-lime-300 rounded-full p-2 -rotate-45"></i></button>
-                       </div>
-
-                       <!-- Fifth Card -->
-                       <div class="bg-white border border-gray-200 rounded-lg shadow-sm p-4">
-                        <img class="w-96 h-48 object-cover rounded-md mb-4" src="images/img5.png" alt="Image One">
-                          <h3 class="text-xl font-bold mb-2">Commercial</h3>
-                         <p class="text-gray-600 mb-4">Our commercial projects highlight a perfect balance of functionality and aesthetics, designed to elevate business environments with modern, sophisticated touches.</p>
-                         <button class="text-black font-bold py-2 px-4 rounded-full inline-flex items-center">View Details <i class="fa-solid fa-arrow-right bg-lime-300 rounded-full p-2 -rotate-45"></i></button>
-                         </div>
-               </div>
+             <!-- First Row -->
+    <div class="flex flex-col md:flex-row gap-5">
+      <div class="flex flex-col md:flex-row gap-5 border border-gray-300 rounded-lg p-2">
+          <div>
+            <img class="w-full" src="images/img1.png">
+          </div>
+          <div>
+              <h3 class="text-black font-semibold mb-2">Commercial</h3>
+              <p class="text-gray-600 mb-2">Our commercial designs seamlessly blend functionality and aesthetics to create spaces that enhance productivity and make a lasting impression.</p>
+              <button class="font-extrabold">View Deatils <i class="fa-solid fa-arrow-right bg-lime-300 -rotate-45 p-2 rounded-full"></i></button>
+          </div>
+      </div>
+      <div class="border border-gray-300 rounded-lg p-2">
+         <img src="images/img2.png" alt="">
+      </div>
+    </div>
+    <!-- Second Row -->
+    <div class="flex flex-col md:flex-row gap-5 mt-4">
+       <div>
+         <img class="w-full border border-gray-300 rounded-lg p-2" src="images/img3.png">
+       </div>
+       <!-- Child Div -->
+       <div class="flex flex-col md:flex-row gap-5 border border-gray-300 rounded-lg p-2">
+        <div>
+         <img class="w-full" src="images/img4.png" alt="">
+        </div>
+        <div>
+          <h3 class="text-black font-semibold mb-2">Commercial</h3>
+          <p class="text-gray-600 mb-2">Our commercial designs seamlessly blend functionality and aesthetics to create spaces that enhance productivity and make a lasting impression.</p>
+          <button class="font-extrabold">View Deatils <i class="fa-solid fa-arrow-right bg-lime-300 -rotate-45 p-2 rounded-full"></i></button>
+        </div>
+       </div>
+       <div>
+        <img class="w-full border border-gray-300 rounded-lg p-2" src="images/img5.png" alt="">
+       </div>
+    </div>
+            
+              
           </div>
         </div>
        </section>
